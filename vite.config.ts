@@ -5,6 +5,7 @@ import { configDefaults } from 'vitest/config';
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
+  base: '/navbar-notifications/',
   test: {
     globals: true,
     environment: 'jsdom',
